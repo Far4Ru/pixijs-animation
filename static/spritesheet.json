@@ -1,0 +1,253 @@
+{
+	"frames":
+	{
+		"poes_30.png":
+		{
+			"frame": {"x":1120,"y":1400,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_29.png":
+		{
+			"frame": {"x":1120,"y":1120,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_28.png":
+		{
+			"frame": {"x":1120,"y":840,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_27.png":
+		{
+			"frame": {"x":1120,"y":560,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_26.png":
+		{
+			"frame": {"x":1120,"y":280,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_25.png":
+		{
+			"frame": {"x":1120,"y":0,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_24.png":
+		{
+			"frame": {"x":840,"y":1400,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_23.png":
+		{
+			"frame": {"x":840,"y":1120,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_22.png":
+		{
+			"frame": {"x":840,"y":840,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_21.png":
+		{
+			"frame": {"x":840,"y":560,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_20.png":
+		{
+			"frame": {"x":840,"y":280,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_19.png":
+		{
+			"frame": {"x":840,"y":0,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_18.png":
+		{
+			"frame": {"x":560,"y":1400,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_17.png":
+		{
+			"frame": {"x":560,"y":1120,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_16.png":
+		{
+			"frame": {"x":560,"y":840,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_15.png":
+		{
+			"frame": {"x":560,"y":560,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_14.png":
+		{
+			"frame": {"x":560,"y":280,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_13.png":
+		{
+			"frame": {"x":560,"y":0,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_12.png":
+		{
+			"frame": {"x":280,"y":1400,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_11.png":
+		{
+			"frame": {"x":280,"y":1120,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_10.png":
+		{
+			"frame": {"x":280,"y":840,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_9.png":
+		{
+			"frame": {"x":280,"y":560,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_8.png":
+		{
+			"frame": {"x":280,"y":280,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_7.png":
+		{
+			"frame": {"x":280,"y":0,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+
+		"poes_6.png":
+		{
+			"frame": {"x":0,"y":1400,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_5.png":
+		{
+			"frame": {"x":0,"y":1120,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_4.png":
+		{
+			"frame": {"x":0,"y":840,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_3.png":
+		{
+			"frame": {"x":0,"y":560,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_2.png":
+		{
+			"frame": {"x":0,"y":280,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		},
+		"poes_1.png":
+		{
+			"frame": {"x":0,"y":0,"w":280,"h":280},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":280,"h":280},
+			"sourceSize": {"w":280,"h":280}
+		}
+	},
+	"meta": {
+		"version": "1.0",
+		"image": "spritesheet.png",
+		"format": "RGBA8888",
+		"size": {"w":1400,"h":1680},
+		"scale": "1"
+	}
+}
