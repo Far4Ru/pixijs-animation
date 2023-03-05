@@ -1,5 +1,7 @@
 # Приложение с анимацией на PixiJS
 
+[Демонстрация](https://far4ru.github.io/pixijs-animation/)
+
 ![Приложение с анимацией на PixiJS](images/github.png)
 
 ## Функциональные возможности
