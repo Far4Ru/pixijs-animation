@@ -1,5 +1,5 @@
 html, body  {
-    background: #2596be;
+    background: #FBB13C;
     height: 100%;
     width: 100%;
     margin: 0 auto;
@@ -9,27 +9,32 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    overflow: hidden;
 }
 
 canvas {
+    width: 100%;
+}
+
+#app {
     width: 1280px;
     max-width: 1280px;
 }
 
 @media (max-width: 1300px) {
-    canvas {
+    #app {
         max-width: 970px;
     }
 }
 
 @media (max-width: 992px) {
-    canvas {
+    #app {
         max-width: 750px;
     }
 }
 
 @media (max-width: 767px) {
-    canvas {
+    #app {
         max-width: 100%;
     }
 }
