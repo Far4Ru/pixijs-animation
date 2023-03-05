@@ -13,8 +13,8 @@ export class Game {
 
     constructor() {
 
-        this._pixi = new PIXI.Application({ width: 1000, height: 600, backgroundColor: 0x228b22 })
-        document.body.appendChild(this._pixi.view)
+        this._pixi = new PIXI.Application({ width: 1000, height: 600, backgroundColor: 0xbe4d25 })
+        document.getElementById("app").appendChild(this._pixi.view)
 
         new Assets(this)
 
