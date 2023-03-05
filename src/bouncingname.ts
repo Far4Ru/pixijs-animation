@@ -8,7 +8,7 @@ export class BouncingName extends PIXI.AnimatedSprite {
 
     private game: Game
     private speedX: number = 1
-    private speedY: number = 2
+    private speedY: number = 1
 
     constructor(game: Game, textures, x: number, y: number) {
         super(textures)

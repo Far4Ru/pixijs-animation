@@ -25,7 +25,7 @@ export class Game {
         bg.tint = config.color;
         // Add a click handler
         bg.interactive = true;
-        bg.on('click', function(){
+        bg.on('pointerdown', function(){
             if (!this.isFullscreen) {
                 if(document.documentElement.requestFullscreen) {
                     document.documentElement.requestFullscreen();
@@ -36,6 +36,7 @@ export class Game {
                 } else if(document.documentElement.msRequestFullscreen) {
                     document.documentElement.msRequestFullscreen();
                 }
+                if (typeof screen.orientation !== 'undefined') screen.orientation.lock("landscape");
                 document.body.style.alignItems = "unset";
                 document.getElementById("app").style.width = "unset";
                 document.getElementById("app").style.maxWidth = "unset";
@@ -50,6 +51,7 @@ export class Game {
                 } else if (document.msExitFullscreen) {
                     document.msExitFullscreen();
                 }
+                if (typeof screen.orientation !== 'undefined') screen.orientation.unlock();
                 document.body.style.alignItems = "center";
                 document.getElementById("app").style.width = config.maxScaleWidth;
                 document.getElementById("app").style.maxWidth = config.maxScaleWidth;
