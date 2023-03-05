@@ -3,8 +3,8 @@ import { Game } from './game'
 
 export class BouncingName extends PIXI.AnimatedSprite {
 
-    private readonly gravity: number = 0.0981 / 8 //0.0981
-    private readonly bounce: number = 0.985  //0.985
+    private readonly gravity: number = 0.0981 / 8
+    private readonly bounce: number = 0.985
 
     private game: Game
     private speedX: number = 1

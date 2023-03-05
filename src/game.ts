@@ -1,11 +1,10 @@
 import * as PIXI from 'pixi.js'
 import { Assets } from './assets'
 import { BouncingName } from './bouncingname'
+import config from '../static/config.json';
 
 export class Game {
 
-    private width = 1000;
-    private height = 600;
     private isFullscreen = false;
 
     // Fields
@@ -16,15 +15,14 @@ export class Game {
     public get pixi(): PIXI.Application { return this._pixi }
 
     constructor() {
-
-        this._pixi = new PIXI.Application({ width: this.width, height: this.height, backgroundColor: 0xbe4d25 })
+        this._pixi = new PIXI.Application({ width: config.width, height: config.height, backgroundColor: config.color })
         document.getElementById("app").appendChild(this._pixi.view)
         // Create the background sprite with a basic white texture
         let bg = new PIXI.Sprite(PIXI.Texture.WHITE);
         // Set it to fill the screen
         bg.width = this._pixi.screen.width;
         bg.height = this._pixi.screen.height;
-        bg.tint = 0xbe4d25;
+        bg.tint = config.color;
         // Add a click handler
         bg.interactive = true;
         bg.on('click', function(){
@@ -53,8 +51,8 @@ export class Game {
                     document.msExitFullscreen();
                 }
                 document.body.style.alignItems = "center";
-                document.getElementById("app").style.width = "1280px";
-                document.getElementById("app").style.maxWidth = "1280px";
+                document.getElementById("app").style.width = config.maxScaleWidth;
+                document.getElementById("app").style.maxWidth = config.maxScaleWidth;
                 this.isFullscreen = false;
             }
         });
