@@ -39,6 +39,8 @@ export class Game {
                 document.body.style.alignItems = "unset";
                 document.getElementById("app").style.width = "unset";
                 document.getElementById("app").style.maxWidth = "unset";
+                window.scrollTo(0,1);
+                document.querySelector('meta[name="viewport"]').setAttribute("content", "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui");
                 this.isFullscreen = true;
             } else {
                 if (document.exitFullscreen) {
@@ -53,6 +55,7 @@ export class Game {
                 document.body.style.alignItems = "center";
                 document.getElementById("app").style.width = config.maxScaleWidth;
                 document.getElementById("app").style.maxWidth = config.maxScaleWidth;
+                document.querySelector('meta[name="viewport"]').setAttribute("content", "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no");
                 this.isFullscreen = false;
             }
         });
