@@ -27,6 +27,7 @@ export class Game {
         bg.interactive = true;
         bg.on('pointerdown', function(){
             if (!this.isFullscreen) {
+                // Enter fullscreen
                 if(document.documentElement.requestFullscreen) {
                     document.documentElement.requestFullscreen();
                 } else if(document.documentElement.mozRequestFullScreen) {
@@ -37,13 +38,22 @@ export class Game {
                     document.documentElement.msRequestFullscreen();
                 }
                 document.body.style.alignItems = "unset";
-                document.getElementById("app").style.width = "unset";
-                document.getElementById("app").style.maxWidth = "unset";
-                setTimeout(function() {
-                    window.scrollTo(0, 1);
-                }, 1000);
+
+                if (window.innerHeight > window.innerWidth) {
+                    document.getElementById("app").style.width = "100%";
+                    document.getElementById("app").style.maxWidth = "100%";
+                } else {
+                    document.getElementById("app").style.height = "100%";
+                    document.getElementById("app").style.maxHeight = "100%";
+                }
+                /mobile/i.test(navigator.userAgent) && setTimeout(function(){
+                    document.body.style.overflow = "auto";
+                    document.body.style.marginTop = "420px";
+                    window.scrollTo(0, 420);
+                }, 0);
                 this.isFullscreen = true;
             } else {
+                // Exit fullscreen
                 if (document.exitFullscreen) {
                     document.exitFullscreen();
                 } else if (document.webkitExitFullscreen) {
@@ -54,8 +64,17 @@ export class Game {
                     document.msExitFullscreen();
                 }
                 document.body.style.alignItems = "center";
-                document.getElementById("app").style.width = config.maxScaleWidth;
-                document.getElementById("app").style.maxWidth = config.maxScaleWidth;
+                document.getElementById("app").style.width = "unset";
+                document.getElementById("app").style.maxWidth = "unset";
+                document.getElementById("app").style.height = "unset";
+                document.getElementById("app").style.maxHeight = "unset";
+
+                /mobile/i.test(navigator.userAgent) && setTimeout(function(){
+                    document.body.style.overflow = "unset";
+                    document.body.style.marginTop = "unset";
+                    window.scrollTo(0, 0);
+                }, 0);
+
                 this.isFullscreen = false;
             }
         });
