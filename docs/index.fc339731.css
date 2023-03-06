@@ -3,6 +3,7 @@ html, body {
   width: 100%;
   background: #fbb13c;
   margin: 0 auto;
+  overflow-y: scroll;
 }
 
 body {
@@ -10,7 +11,6 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
-  overflow: hidden;
 }
 
 canvas {
