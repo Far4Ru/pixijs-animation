@@ -40,9 +40,13 @@ export class Game {
                 document.body.style.alignItems = "unset";
 
                 if (window.innerHeight > window.innerWidth) {
+                    document.getElementById("app").style.height = "unset";
+                    document.getElementById("app").style.maxHeight = "unset";
                     document.getElementById("app").style.width = "100%";
                     document.getElementById("app").style.maxWidth = "100%";
                 } else {
+                    document.getElementById("app").style.width = "unset";
+                    document.getElementById("app").style.maxWidth = "unset";
                     document.getElementById("app").style.height = "100%";
                     document.getElementById("app").style.maxHeight = "100%";
                 }
