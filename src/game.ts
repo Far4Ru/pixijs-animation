@@ -55,7 +55,6 @@ export class Game {
                 document.body.style.alignItems = "center";
                 document.getElementById("app").style.width = config.maxScaleWidth;
                 document.getElementById("app").style.maxWidth = config.maxScaleWidth;
-                document.querySelector('meta[name="viewport"]').setAttribute("content", "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no");
                 this.isFullscreen = false;
             }
         });
